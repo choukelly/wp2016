@@ -14,3 +14,9 @@ body{
 .content{
     text-align:center:
 }
+#aboutMe{
+    display:none;
+}
+#workExperience{
+    display:none;
+}

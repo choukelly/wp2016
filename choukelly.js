@@ -1,17 +1,17 @@
 $(document).ready(function(){
-$("#choukellyButton").click(function(){
-$("#choukelly").fadeIn();
-$("#aboutMe").fadeOut("slow");
-$("#div3").fadeOut("slow");
-});
-$("#aboutMeButton").click(function(){
-$("#choukelly").fadeOut("slow");
-$("#aboutMe").fadeIn();
-$("#workExperience").fadeOut("slow");
-});
-$("#workExperienceButton").click(function(){
-$("#choukelly").fadeOut("slow");
-$("#aboutMe").fadeOut("slow");
-$("#workExperience").fadeIn();
-});
-});
+  $("#choukellyButton").click(function(){
+      $("#choukelly").show(1000);
+          $("#aboutMe").css("display","none");
+              $("#workExperience").css("display","none");
+                });
+                  $("#aboutMeButton").click(function(){
+                      $("#choukelly").css("display","none");
+                          $("#aboutMe").show(1000);
+                              $("#workExperience").css("display","none");
+                                });
+                                  $("#workExperienceButton").click(function(){
+                                      $("#choukelly").css("display","none");
+                                          $("#aboutMe").css("display","none");
+                                              $("#workExperience").show(1000);
+                                                });
+                                                });
