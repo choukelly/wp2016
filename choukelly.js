@@ -1,0 +1,17 @@
+$(document).ready(function(){
+$("#choukellyButton").click(function(){
+$("#choukelly").fadeIn();
+$("#aboutMe").fadeOut("slow");
+$("#div3").fadeOut("slow");
+});
+$("#aboutMeButton").click(function(){
+$("#choukelly").fadeOut("slow");
+$("#aboutMe").fadeIn();
+$("#workExperience").fadeOut("slow");
+});
+$("#workExperienceButton").click(function(){
+$("#choukelly").fadeOut("slow");
+$("#aboutMe").fadeOut("slow");
+$("#workExperience").fadeIn();
+});
+});
